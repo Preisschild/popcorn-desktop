@@ -5,6 +5,11 @@
     var collection = App.Device.Collection;
 
     var players = {
+        'xdgopen': {
+            type: 'xdg-open',
+            cmd: 'xdg-open',
+            fs: '--fs',
+        },
         'VLC': {
             type: 'vlc',
             cmd: '/Contents/MacOS/VLC',
